@@ -1,0 +1,125 @@
+/*reset*/
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h, pre, form, p, blockquote, fieldset, input, hr
+{
+margin:0;
+padding:0;
+}
+a{
+	text-decoration: none;
+	color: #CCC;
+}
+li{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*fin del reset*/
+
+body{
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.web{
+    width: 75vw;
+    height: 100vh;
+    background-color: #eee;
+    margin: auto;
+    display: grid;
+    grid-template-areas:    "titulo menu"
+                            "rite left"
+                            "foot foot";
+    grid-template-rows: 50px 1fr 25px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo{
+    grid-area: titulo;
+    display: block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.menu{
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: " na al es in it va ne";
+    text-transform: uppercase;
+    font-size: 0.7em;
+    transition: ease-in .2s;
+}
+.menu>div{
+    padding-top: 10px;
+    transition: ease-in .2s;
+}
+.menu:hover{
+    background-color: rgba(79, 151, 233, 0.2);
+    transition: ease-in .2s;
+}
+.menu>div:hover{
+    font-weight: bold;
+    text-shadow: 3px 12px 3px #333;
+    color: #530a53;
+    cursor: pointer;
+    transition: ease-in .2s;
+
+}
+#de{grid-area: al;}
+#eng{grid-area: in;}
+#esp{grid-area: es;}
+#it{grid-area: it;}
+#val{grid-area: va;}
+.rite{
+    grid-area: rite;
+}
+.rite img{
+    margin-top: 20%;
+}
+.left{
+    grid-area: left;
+    display: grid;
+    grid-template-columns: 15px 1fr 15px;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.card{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    max-width: 380px;
+    margin: auto;
+}
+.card #title{
+    background-color: #0f385e;
+    color: #ddd;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.card .body{
+    background-color: #333;
+    color: #eee;
+    font-weight: lighter;
+    padding: 10px;
+    text-align: justify;
+}
+#btn{
+    background-color: rgba(79, 151, 233, 0.2);
+    height: 35px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#btn:hover{
+    text-shadow: 3px 3px 3px #111;
+    box-shadow: 3px 3px 3px #111;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
