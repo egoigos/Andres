@@ -123,3 +123,100 @@ body{
     cursor: pointer;
     transition: ease-in .2s;
 }
+/*-- responsive section*/
+
+@media screen and (max-width:800px) {
+    .web{
+        width: 100vw;
+        height: 100vh;
+        background-color: #eee;
+        margin: auto;
+        display: grid;
+        grid-template-areas:    "titulo"
+                                "menu"
+                                "rite"
+                                "left"
+                                "foot";
+        grid-template-rows: 1fr 1fr 2fr 3fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .menu{
+        grid-area: menu;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:    "no al es in na"
+                                "ni it nu va ne";
+        text-transform: uppercase;
+        font-size: 0.7em;
+        transition: ease-in .2s;
+    }
+    .rite>img{
+        max-width: 40%;
+    }
+    .card{
+        max-width: 90%;
+        min-width: 300px;
+        margin: auto;
+    }
+    .card>h2{
+        font-size: 9px;
+    }
+    .card>p{
+        font-size: 6px;
+        font-weight: lighter;
+    }
+    .card>a{
+        font-size: 6px;
+    }
+
+  }
+
+  @media screen and (max-width:1100px) and (min-width:801px) and (min-height:650px) {
+    .web{
+        width: 100vw;
+        height: 50vh;
+        background-color: #eee;
+        margin: auto;
+        margin-top: 25px;
+        display: grid;
+        grid-template-areas:    "titulo menu"
+                                "rite left";
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .left{
+        grid-area: left;
+        display: grid;
+        grid-template-columns: 10px 1fr 10px;
+        grid-template-rows: 1fr 5fr 1fr;
+    }
+    .card{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        max-width: 535px;
+        margin: auto;
+    }
+    .card #title{
+        background-color: #0f385e;
+        color: #ddd;
+        text-transform: uppercase;
+        padding: 15px;
+    }
+    .card .body{
+        background-color: #333;
+        color: #eee;
+        font-weight: lighter;
+        padding: 15px;
+        text-align: justify;
+    }
+    .card>h2{
+        font-size: 1em;
+    }
+    .card>p{
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    .card>a{
+        font-size: 8px;
+    }
+  }
