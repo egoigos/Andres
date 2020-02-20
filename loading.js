@@ -30,7 +30,7 @@ function it(){
     document.getElementById("val").innerHTML=   "Valenciano";
 
     document.getElementById("title").innerHTML=     "<h2>Sito Web in costruzione</h2>";
-    document.getElementById("txt").innerHTML=       "<p>Ci scusiamo per l'inconveniente, sto pianificando il contenuto; sarà presto disponibile.</p><p>Nel frattempo, puoi scaricare il CV con il pulsante corrispondente, è in spagnolo, per la versione inglesa o italiana richiedilo a egoigos@hotmail.com, grazie mille.</p>";
+    document.getElementById("txt").innerHTML=       "<p>Scusatemi per l'inconveniente, sto pianificando il contenuto; presto sarà disponibile.</p><p>Nel frattempo, puoi scaricare il CV con il pulsante corrispondente, è in spagnolo, per la versione inglesa o italiana richiedilo a egoigos@hotmail.com, grazie mille.</p>";
     document.getElementById("btn").innerHTML=       '<a href="https://drive.google.com/open?id=1c4jyZqax_rO_lMuUxyKY3GNuh6SS1KZp">Scarica il CV</a>';
 }
 
