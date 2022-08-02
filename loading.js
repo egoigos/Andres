@@ -1,9 +1,9 @@
 function es(){
-    document.getElementById("de").innerHTML=    "Alemán";
-    document.getElementById("eng").innerHTML=   "Inglés";
+    document.getElementById("de").innerHTML=    "Deutsch";
+    document.getElementById("eng").innerHTML=   "English";
     document.getElementById("esp").innerHTML=   "Español";
     document.getElementById("it").innerHTML=    "Italiano";
-    document.getElementById("val").innerHTML=   "Valenciano";
+    document.getElementById("val").innerHTML=   "Valencià";
 
     document.getElementById("title").innerHTML=     "<h2>Sitio en Costrucción</h2>";
     document.getElementById("txt").innerHTML=       "<p>Lamento las molestias, estoy diseñando el contenido.<br />En breve estará disponible.</p><p>Mientras tanto puedes descargar el CV el botón correspondiente.</p>";
@@ -11,11 +11,11 @@ function es(){
 }
 
 function eng(){
-    document.getElementById("de").innerHTML=    "German";
+    document.getElementById("de").innerHTML=    "Deutsch";
     document.getElementById("eng").innerHTML=   "English";
-    document.getElementById("esp").innerHTML=   "Spanish";
-    document.getElementById("it").innerHTML=    "Italian";
-    document.getElementById("val").innerHTML=   "Valencian";
+    document.getElementById("esp").innerHTML=   "Español";
+    document.getElementById("it").innerHTML=    "Italiano";
+    document.getElementById("val").innerHTML=   "Valencià";
 
     document.getElementById("title").innerHTML=     "<h2>Under construction</h2>";
     document.getElementById("txt").innerHTML=       "<p>Sorry for the inconvenience, I'm designing the content, I think it will be available shortly.</p><p>Meanwhile you can download the CV the corresponding button if would to.</p>";
@@ -23,11 +23,11 @@ function eng(){
 }
 
 function it(){
-    document.getElementById("de").innerHTML=    "Tedesco";
-    document.getElementById("eng").innerHTML=   "Inglese";
-    document.getElementById("esp").innerHTML=   "Spagnuolo";
+    document.getElementById("de").innerHTML=    "Deutsch";
+    document.getElementById("eng").innerHTML=   "English";
+    document.getElementById("esp").innerHTML=   "Español";
     document.getElementById("it").innerHTML=    "Italiano";
-    document.getElementById("val").innerHTML=   "Valenciano";
+    document.getElementById("val").innerHTML=   "Valencià";
 
     document.getElementById("title").innerHTML=     "<h2>Sito Web in costruzione</h2>";
     document.getElementById("txt").innerHTML=       "<p>Scusatemi per l'inconveniente, sto pianificando il contenuto; presto sarà disponibile.</p><p>Nel frattempo, puoi scaricare il CV con il pulsante corrispondente, è in spagnolo, per la versione inglesa o italiana richiedilo a egoigos@hotmail.com, grazie mille.</p>";
@@ -35,10 +35,10 @@ function it(){
 }
 
 function va(){
-    document.getElementById("de").innerHTML=    "Alemany";
-    document.getElementById("eng").innerHTML=   "Anglès";
-    document.getElementById("esp").innerHTML=   "Espanyol";
-    document.getElementById("it").innerHTML=    "Italià";
+    document.getElementById("de").innerHTML=    "Deutsch";
+    document.getElementById("eng").innerHTML=   "English";
+    document.getElementById("esp").innerHTML=   "Español";
+    document.getElementById("it").innerHTML=    "Italiano";
     document.getElementById("val").innerHTML=   "Valencià";
 
     document.getElementById("title").innerHTML=     "<h2>Lloc en construcció</h2>";
@@ -48,10 +48,10 @@ function va(){
 
 function de(){
     document.getElementById("de").innerHTML=    "Deutsch";
-    document.getElementById("eng").innerHTML=   "Englisch";
-    document.getElementById("esp").innerHTML=   "Spanisch";
-    document.getElementById("it").innerHTML=    "Italienisch";
-    document.getElementById("val").innerHTML=   "Valencia";
+    document.getElementById("eng").innerHTML=   "English";
+    document.getElementById("esp").innerHTML=   "Español";
+    document.getElementById("it").innerHTML=    "Italiano";
+    document.getElementById("val").innerHTML=   "Valencià";
 
     document.getElementById("title").innerHTML=     "<h2>Seite im Aufbau</h2>";
     document.getElementById("txt").innerHTML=       "<p> Entschuldigen Sie die Unannehmlichkeiten, ich entwerfe den Inhalt. <br />Es wird bald verfügbar sein. </p><p>In der Zwischenzeit können Sie den Lebenslauf über den entsprechenden Button herunterladen, vielen Dank.</p>";
